@@ -249,6 +249,7 @@ class ArrayListTest {
         assertThat(internalArray[1]).isEqualTo(69);
         assertThat(getTestSize()).isEqualTo(4);
         assertThat(removedElement).isEqualTo(58);
+        assertThat(internalArray[4]).isNull();
     }
 
     @Test
